@@ -1,0 +1,11 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Monofett|PT+Sans+Narrow');
+
+/* GLOBALS */
+.border-top {
+    box-shadow: 15px 15px 3px 0px #ff0066;
+}
+
+.border-bottom {
+    
+}

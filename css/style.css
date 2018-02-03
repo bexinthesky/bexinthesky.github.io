@@ -2,17 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Monofett|PT+Sans+Narrow');
 
 /* GLOBALS */
-.border_top {
-    box-shadow: 15px 15px 3px 0px #ff0066;
-    position: absolute;
-    height: 20px;
+.border {
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 102, 0.6);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(255, 0, 102, 0.6);
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 102, 0.6);
+    margin: 5px;
 }
 
-.border_bottom {
-    box-shadow: -15px 15px 35px 0px #ff0066;
-    height: 82%;
-    position: absolute;
-    z-index: -1;
-    right: 0px;
-    height: 20px;
+div.border {
+    border: 0px !important;
+}
+
+/* NAVBAR */
+ul#nav-mobile>li>a.black-text {
+    text-decoration: none;
+}
+
+a.brand-logo {
+    text-decoration: none;
 }

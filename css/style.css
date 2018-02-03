@@ -2,10 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Monofett|PT+Sans+Narrow');
 
 /* GLOBALS */
-.border-top {
+.border_top {
     box-shadow: 15px 15px 3px 0px #ff0066;
+    position: absolute;
+    height: 20px;
 }
 
-.border-bottom {
-    
+.border_bottom {
+    box-shadow: -15px 15px 35px 0px #ff0066;
+    height: 82%;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    height: 20px;
 }
